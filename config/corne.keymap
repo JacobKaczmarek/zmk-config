@@ -9,6 +9,18 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <38 41>;
+            bindings = <&mo 3>;
+        };
+    };
+};
+
+
+/ {
         keymap {
                 compatible = "zmk,keymap";
 
@@ -53,4 +65,18 @@
                         >;
                 };
         };
+
+                num_layer {
+// -----------------------------------------------------------------------------------------
+// |  TAB |     |     |     |     |     |   |     |  7  |  8  |  9  |     | BKSP |
+// |      |     |     |     |     |     |   |  0  |  4  |  5  |  6  |     |      |
+// | SHFT |     |     |     |     |     |   |     |  1  |  2  |  3  |     |      |
+//                    | GUI |     | SPC |   | ENT |     | ALT |
+                        bindings = <
+   &kp TAB   &trans &trans &trans   &trans &trans    &trans  &kp N7 &kp N8   &kp N9 &trans &kp BSPC
+   &trans    &trans &trans &trans   &trans &trans    &kp N0  &kp N4 &kp N5   &kp N6 &trans &trans
+   &kp LSHFT &trans &trans &trans   &trans &trans    &trans  &kp N1 &kp N2   &kp N3 &trans &trans
+                           &kp LGUI &trans &kp SPACE &kp RET &trans &kp RALT
+                        >;
+                };
 };
