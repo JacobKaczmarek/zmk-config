@@ -82,7 +82,7 @@
                 &kp  TAB   &trans     &trans     &trans     &trans     &trans         &trans     &kp 7      &kp 8      &kp 9      &trans     &kp BSPC
             //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
             //| CTRL     |          |          |          |          |          |   |          |          |          |          |          |          |
-                &kp LCTRL  &trans     &trans     &trans     &trans     &trans         &kp 0      &kp 4      &kp 5      &kp 6      &trans     &kp trans
+                &kp LCTRL  &trans     &trans     &trans     &trans     &trans         &kp 0      &kp 4      &kp 5      &kp 6      &trans     &trans
             //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   
             //| SHFT     |          |          |          |          |          |   |          |          |          |          |          |          |
                 &kp LSHFT  &trans     &trans     &trans     &trans     &trans         &trans     &kp 1      &kp 2      &kp 3      &trans     &trans
