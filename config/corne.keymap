@@ -43,11 +43,11 @@
             //| TAB         | 1          | 2          | 3          | 4          | 5          |   | 6          | 7          | 8          | 9          | 0          | BKSP       |
                 &kp TAB       &kp N1       &kp N2       &kp N3       &kp N4       &kp N5           &kp N6       &kp N7       &kp N8       &kp N9       &kp N0       &kp BSPC
             //├──────────────┬──────────────┬─────────────┬─────────────┬─────────────┬─────────────┤   ├─────────────┬──────────────┬─────────────┬─────────────┬─────────────┬─────────────┤
-            //| SHIFT(ESC)  |             | ^          | -          | +          | =          |  | LEFT       | DOWN       | UP         | RIGHT      |            |            |
-                &mt LSHFT ESC &trans       &kp CARET     &kp MINUS    &trans       &kp EQUAL       &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &trans       &trans
+            //| SHIFT(ESC)  |            | ^          | -          | +          | =          |   | LEFT       | DOWN       | UP         | RIGHT      |            |            |
+                &mt LSHFT ESC &trans       &kp CARET     &kp MINUS    &kp PLUS     &kp EQUAL       &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &trans       &trans
             //├──────────────┬──────────────┬─────────────┬─────────────┬─────────────┬─────────────┤   ├─────────────┬──────────────┬─────────────┬─────────────┬─────────────┬─────────────┤   
             //| CTRL        |             | %         | /          | *          | _          |   | HOME       | PAGE DN    | PAGE UP    | END        |            |            |
-                &kp LCTRL     &trans        &trans      &trans       &trans       &trans           &kp HOME     &kp PG_DN    &kp PG_UP    &kp END      &trans       &trans
+                &kp LCTRL     &trans        &kp PRCNT   &kp FSLH     &kp STAR     &kp UNDER        &kp HOME     &kp PG_DN    &kp PG_UP    &kp END      &trans       &trans
             //╰──────────────┴──────────────┴─────────────┬─────────────┬─────────────┬─────────────┤   ├─────────────┬──────────────┬─────────────┬─────────────┴─────────────┴─────────────╯
             //                                        | GUI        |            | SPC        |   | ENT        |            | ALT        |
                                                         &kp LGUI     &trans       &kp SPACE        &kp RET      &trans       &kp RALT
@@ -82,7 +82,7 @@
                 &kp  TAB    &trans        &trans       &trans      &trans      &trans          &trans      &trans      &trans      &trans      &trans      &kp BSPC
             //├─────────────┼──────────────┼─────────────┼────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────┼────────────┼────────────┼────────────┤
             //| BT CLR     | BT1        | BT2        | BT3       | BT4       | BT5       |   | PREV      | VOL DN    | VOL UP    | Next      | Play      |           |
-                &bt BT_CLR   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  &kp K_PREV  &kp K_VOL_DN &kp K_VOL_UP &kp K_NEXT &kp K_PP  &trans
+                &bt BT_CLR   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  &kp C_PREV  &kp C_VOL_DN &kp C_VOL_UP &kp C_NEXT &kp C_PP  &trans
             //├─────────────┼──────────────┼─────────────┼────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────┼────────────┼────────────┼────────────┤   
             //| SHFT       |            |            |           |           |           |   |           |           |           |           |           |           |
                 &kp LCTRL   &trans       &trans        &trans      &trans      &trans          &trans      &trans      &trans      &trans      &trans      &trans
