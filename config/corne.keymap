@@ -43,11 +43,11 @@
             //| TAB         | 1          | 2          | 3          | 4          | 5          |   | 6          | 7          | 8          | 9          | 0          | BKSP       |
                 &kp TAB       &kp N1       &kp N2       &kp N3       &kp N4       &kp N5           &kp N6       &kp N7       &kp N8       &kp N9       &kp N0       &kp BSPC
             //├──────────────┬──────────────┬─────────────┬─────────────┬─────────────┬─────────────┤   ├─────────────┬──────────────┬─────────────┬─────────────┬─────────────┬─────────────┤
-            //| SHIFT(ESC)  |            | ^          | -          | +          | =          |   | LEFT       | DOWN       | UP         | RIGHT      |            |            |
-                &mt LSHFT ESC &trans       &kp CARET       &kp MINUS       &trans       &kp EQUAL           &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &trans       &trans
+            //| SHIFT(ESC)  |             | ^          | -          | +          | =          |  | LEFT       | DOWN       | UP         | RIGHT      |            |            |
+                &mt LSHFT ESC &trans       &kp CARET     &kp MINUS    &trans       &kp EQUAL       &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &trans       &trans
             //├──────────────┬──────────────┬─────────────┬─────────────┬─────────────┬─────────────┤   ├─────────────┬──────────────┬─────────────┬─────────────┬─────────────┬─────────────┤   
-            //| CTRL        |            | %          | /          | *          | _          |   | HOME       | PAGE DN    | PAGE UP    | END        |            |            |
-                &kp LCTRL     &trans       &trans       &trans       &trans       &trans           &kp HOME     &kp PG_DN    &kp PG_UP    &kp END      &trans       &trans
+            //| CTRL        |             | %         | /          | *          | _          |   | HOME       | PAGE DN    | PAGE UP    | END        |            |            |
+                &kp LCTRL     &trans        &trans      &trans       &trans       &trans           &kp HOME     &kp PG_DN    &kp PG_UP    &kp END      &trans       &trans
             //╰──────────────┴──────────────┴─────────────┬─────────────┬─────────────┬─────────────┤   ├─────────────┬──────────────┬─────────────┬─────────────┴─────────────┴─────────────╯
             //                                        | GUI        |            | SPC        |   | ENT        |            | ALT        |
                                                         &kp LGUI     &trans       &kp SPACE        &kp RET      &trans       &kp RALT
@@ -66,12 +66,12 @@
             //| SHIFT(ESC)| `         |           |           | ~         | &         |  | (         | )         |           |           |           | `        |
                 &mt LSHFT ESC &kp GRAVE &trans      &trans      &kp TILDE   &kp AMPS        &kp LPAR    &kp RPAR   &trans      &trans      &trans      &trans
             //├────────────┼────────────┼────────────┼────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────┼────────────┼────────────┼───────────┤   
-            //| CTRL      |           |           |           | \         | '|'       |  |  {        | }         |           |           |           |          |
-                &kp LCTRL   &trans      &trans      &trans      &kp BSLH     &kp PIPE       &kp LBRC   &kp RBRC    &trans      &trans      &trans      &kp TILDE
+            //| CTRL      |           |           |           | \         | '|'       |  | {         | }         |           |           |           |          |
+                &kp LCTRL   &trans      &trans      &trans      &kp BSLH     &kp PIPE      &kp LBRC    &kp RBRC    &trans      &trans      &trans      &kp TILDE
             //╰────────────┴────────────┴────────────┼────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────┼────────────┴────────────┴───────────╯
-            //                                    | GUI       |          | SPC        |  | ENT       |           | ALT        |
-                                                    &kp LGUI    &trans      &kp SPACE       &kp RET     &trans      &kp RALT
-            //                                    ╰────────────┴────────────┴────────────╯   ╰─────────────┴────────────┴────────────╯
+            //                                    | GUI       |          | SPC        |  | ENT       |           | ALT       |
+                                                    &kp LGUI    &trans     &kp SPACE      &kp RET     &trans      &kp RALT
+            //                                    ╰────────────┴────────────┴────────────╯   ╰────────────┴────────────┴────────────╯
                 >;
             };
 
