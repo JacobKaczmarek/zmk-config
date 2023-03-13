@@ -17,6 +17,13 @@
         };
     };
 
+    macros {
+        raycast: raycast {
+            compatible = "zmk,macro";
+            bindings = <&macro_tap &kp LGUI &kp SPACE>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
         default_layer {
@@ -79,7 +86,7 @@
             bindings = <
             //╭─────────────┬──────────────┬─────────────┬────────────┬────────────┬────────────╮   ╭────────────┬────────────┬────────────┬────────────┬────────────┬────────────╮
             //| TAB        |            |            |           |           |           |   |           |           |           |           |           | BKSP      |
-                &kp  TAB    &trans        &trans       &trans      &trans      &trans          &trans      &trans      &trans      &trans      &trans      &kp BSPC
+                &kp  TAB    &trans        &kp C_AL_WWW &trans      &trans      &trans          &trans      &trans      &trans      &trans      &trans      &kp BSPC
             //├─────────────┼──────────────┼─────────────┼────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────┼────────────┼────────────┼────────────┤
             //| BT CLR     | BT1        | BT2        | BT3       | BT4       | BT5       |   | PREV      | VOL DN    | VOL UP    | Next      | Play      |           |
                 &bt BT_CLR   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  &kp C_PREV  &kp C_VOL_DN &kp C_VOL_UP &kp C_NEXT &kp C_PP  &trans
