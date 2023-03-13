@@ -35,8 +35,8 @@
             //| SHIFT(ESC)| A         | S         | D         | F         | G         |   | H        | J         | K         | L         | ;        | '         |
                 &mt LSHFT ESC &kp A     &kp S       &kp D      &kp F       &kp G           &kp H       &kp J       &kp K       &kp L       &kp SEMI    &kp SQT
             //├────────────┼────────────┼────────────┼────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────┼────────────┼────────────┼────────────┤   
-            //| CTRL      | Z         | X         | C         | V         | B         |   | N        | M         | ,         | .         | /         | ESC       |
-                &kp LCTRL   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp ESC
+            //| CTRL      | Z         | X         | C         | V         | B         |   | N        | M         | ,         | .         | /         | Raycast   |
+                &kp LCTRL   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH   &raycast
             //╰────────────┴────────────┴────────────┼────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────┼────────────┴────────────┴────────────╯
             //                                    | GUI       | LWR       | SPC       |   | ENT       | RSE      | ALT       |
                                                     &kp LGUI    &mo 1       &kp SPACE       &kp RET     &mo 2       &kp RALT
