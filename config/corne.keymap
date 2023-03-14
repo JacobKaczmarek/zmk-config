@@ -53,7 +53,7 @@
                 &kp LCTRL     &trans        &kp PRCNT   &kp FSLH     &kp STAR     &kp UNDER        &kp HOME     &kp PG_DN    &kp PG_UP    &kp END      &trans       &trans
             //╰──────────────┴──────────────┴─────────────┬─────────────┬─────────────┬─────────────┤   ├─────────────┬──────────────┬─────────────┬─────────────┴─────────────┴─────────────╯
             //                                        | GUI        |            | SPC        |   | ENT        |            | ALT        |
-                                                        &trans      &trans        &trans           &trasn      &trans        &trans
+                                                        &trans      &trans        &trans           &trans      &trans        &trans
             //                                        ╰─────────────┴─────────────┴─────────────╯   ╰──────────────┴─────────────┴─────────────╯
                 >;
             };
