@@ -73,7 +73,7 @@
                 &kp LCTRL   &trans      &trans      &trans      &kp BSLH     &kp PIPE      &kp LBRC    &kp RBRC    &trans      &trans      &trans      &kp TILDE
             //╰────────────┴────────────┴────────────┼────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────┼────────────┴────────────┴───────────╯
             //                                    | GUI       |          | SPC        |  | ENT       |           | ALT       |
-                                                    &trans      &trans     &trans          &kp trans   &trans      &trans
+                                                    &trans      &trans     &trans          &trans      &trans      &trans
             //                                    ╰────────────┴────────────┴────────────╯   ╰────────────┴────────────┴────────────╯
                 >;
             };
