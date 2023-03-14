@@ -20,6 +20,7 @@
     macros {
         raycast: raycast {
             compatible = "zmk,behavior-macro";
+            label = "RAYCAST";
             #binding-cells = <0>;
             bindings = <&macro_tap &kp LGUI &kp SPACE>;
         };
