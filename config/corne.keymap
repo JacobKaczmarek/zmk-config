@@ -73,7 +73,7 @@
                 &kp LCTRL   &trans      &trans      &trans      &kp BSLH     &kp PIPE      &kp LBRC    &kp RBRC    &trans      &trans      &trans      &kp TILDE
             //╰────────────┴────────────┴────────────┼────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────┼────────────┴────────────┴───────────╯
             //                                    | GUI       |          | SPC        |  | ENT       |           | ALT       |
-                                                    &kp LGUI    &trans     &kp SPACE      &kp RET     &trans      &kp RALT
+                                                    &trans      &trans     &trans          &kp trans   &trans      &trans
             //                                    ╰────────────┴────────────┴────────────╯   ╰────────────┴────────────┴────────────╯
                 >;
             };
@@ -91,7 +91,7 @@
                 &kp LCTRL   &trans       &trans        &trans      &trans      &trans          &trans      &trans      &trans      &trans      &trans      &trans
             //╰─────────────┴──────────────┴─────────────┼────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────┼────────────┴────────────┴────────────╯
             //                                       | GUI       |           | SPC       |   | ENT       |           | ALT       |
-                                                       &kp LGUI    &trans      &kp SPACE       &kp RET     &trans      &kp RALT
+                                                       &trans      &trans      &trans          &trans      &trans      &trans
             //                                       ╰────────────┴────────────┴────────────╯   ╰─────────────┴────────────┴────────────╯
                 >;
             };
