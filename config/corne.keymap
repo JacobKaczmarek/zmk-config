@@ -8,6 +8,9 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+#define HYP LS(LC(LA(LGUI)))
+
+
 / {
      conditional_layers {
         compatible = "zmk,conditional-layers";
@@ -34,14 +37,14 @@
             //| TAB       | Q         | W         | E         | R         | T         |   | Y        | U         | I         | O         | P         | BKSP      |
                 &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P       &kp BSPC
             //├────────────┼────────────┼────────────┼────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────┼────────────┼────────────┼────────────┤
-            //| SHIFT(ESC)| A         | S         | D         | F         | G         |   | H        | J         | K         | L         | ;        | '         |
+            //| SHIFT(ESC)| A         | S         | D         | F         | G         |   | H        | J         | K         | L         | ;        | '          |
                 &mt LSHFT ESC &kp A     &kp S       &kp D      &kp F       &kp G           &kp H       &kp J       &kp K       &kp L       &kp SEMI    &kp SQT
             //├────────────┼────────────┼────────────┼────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────┼────────────┼────────────┼────────────┤   
-            //| CTRL      | Z         | X         | C         | V         | B         |   | N        | M         | ,         | .         | /         | Raycast   |
-                &kp LCTRL   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH   &raycast
+            //| CTRL      | Z         | X         | C         | V         | B         |   | N        | M         | ,         | .         | /         | DEL       |
+                &kp LCTRL   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH   &kp DEL
             //╰────────────┴────────────┴────────────┼────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────┼────────────┴────────────┴────────────╯
             //                                    | GUI       | LWR       | SPC       |   | ENT       | RSE      | ALT       |
-                                                    &kp LGUI    &mo 1       &kp SPACE       &kp RET     &mo 2       &kp RALT
+                                                    &kp LGUI    &mo 1       &mt HYP SPACE   &kp RET     &mo 2      &kp RALT
             //                                    ╰────────────┴────────────┴────────────╯   ╰────────────┴────────────┴────────────╯
                 >;
             };
@@ -59,7 +62,7 @@
                 &kp LCTRL     &trans        &kp PRCNT   &kp FSLH     &kp STAR     &kp UNDER        &kp HOME     &kp PG_DN    &kp PG_UP    &kp END      &trans       &trans
             //╰──────────────┴──────────────┴─────────────┬─────────────┬─────────────┬─────────────┤   ├─────────────┬──────────────┬─────────────┬─────────────┴─────────────┴─────────────╯
             //                                        | GUI        |            | SPC        |   | ENT        |            | ALT        |
-                                                        &kp LGUI     &trans       &kp SPACE        &kp RET      &trans       &kp RALT
+                                                        &trans      &trans        &trans           &trasn      &trans        &trans
             //                                        ╰─────────────┴─────────────┴─────────────╯   ╰──────────────┴─────────────┴─────────────╯
                 >;
             };
